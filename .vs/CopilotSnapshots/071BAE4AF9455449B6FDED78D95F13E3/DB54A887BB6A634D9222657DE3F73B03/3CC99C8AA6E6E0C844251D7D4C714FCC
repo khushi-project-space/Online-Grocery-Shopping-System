@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<!--
+  For more information on how to configure your ASP.NET application, please visit
+  http://go.microsoft.com/fwlink/?LinkId=169433
+  -->
+<configuration>
+	<connectionStrings>
+    <add name="con" connectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=E:\College\Project\66\66\GRO1\App_Data\Database.mdf;Integrated Security=True;User Instance=True"/>
+  <add name="ConnectionString" connectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\Database.mdf;Integrated Security=True;User Instance=True"
+   providerName="System.Data.SqlClient" />
+ </connectionStrings>
+ <system.web>
+   <sessionState timeout="30"></sessionState>
+		<compilation debug="true" targetFramework="4.0"/>
+	</system.web>
+</configuration>
